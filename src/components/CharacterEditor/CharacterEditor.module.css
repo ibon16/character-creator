@@ -6,7 +6,6 @@
 .maxWidthWrapper {
   position: relative;
   max-width:1024px;
-  border:1px solid;
 }
 
 .header {
@@ -29,9 +28,10 @@
 
 .characterWrapper {
   position:fixed;
-  top:0;
+  top:128px;
+  left:55%;
   right:0;
-  width:100%;
+  min-height: 500px;
   height:100%;
 }
 
@@ -39,3 +39,5 @@
   width:50%;
 
 }
+
+
